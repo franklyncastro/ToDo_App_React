@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; 
+
+}
+
+input,
+textarea {
+  caret-color: auto;
+}
+
+button,
+span,
+li,
+div,
+h1,
+p,
+a {
+  user-select: none;
+  caret-color: transparent;
+}
