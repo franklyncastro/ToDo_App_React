@@ -54,8 +54,8 @@ function App() {
       <div className="sketch-background">
         <div className="sketch-container">
           <div className="titleView">
-            <img src={img} alt="listPic" width={75} />
-            <div className="sketch-title">To-Do List!</div>
+            <img src={img} alt="listPic" width={75} className="animate__animated animate__bounce"/>
+            <div className="sketch-title animate__animated animate__bounce">To-Do List!</div>
           </div>
           <div className="add">
             <input
@@ -73,7 +73,7 @@ function App() {
 
           {task.map((t) => (
             <div key={t.id} className="sketch-item">
-              <label className="sketch-label">
+              <label className="sketch-label animate__animated animate__backInDown">
                 <input
                   type="checkbox"
                   className="sketch-input" /*  checked={t.completed} onChange={()=> togglecheck(t.id)}*/
