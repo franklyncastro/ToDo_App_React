@@ -316,9 +316,6 @@ transform: scale(1.1);
     font-size: 13px;
   }
 
-  .addbtn{
-    display: none;
-  }
 }
 
 /* Desactivar hovers */
